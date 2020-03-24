@@ -9,7 +9,7 @@
                         <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Aplikasi Mutasi Berbasis Elektronik</h3>
                         <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Aplikasi untuk perpindahan siswa atau mutasi siswa sekolah</p>
                         <div class="sldier_btn wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                            <a href="<?= base_url('auth/login'); ?>" class="boxed-btn3">Masuk</a>
+                            <a href="<?= base_url('login'); ?>" class="boxed-btn3">Masuk</a>
                         </div>
                     </div>
                 </div>

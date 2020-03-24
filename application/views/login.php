@@ -34,16 +34,21 @@
     <div class="limiter">
         <div class="container-login100">
             <div class="wrap-login100">
-                <form class="login100-form validate-form">
-                    <span class="login100-form-title p-b-26">
+                <form class="login100-form validate-form" method="POST" action="<?php echo base_url('login/') ?>">
+                    <span class=" login100-form-title p-b-26">
                         LOGIN E-MUTASI
                     </span>
                     <span class="login100-form-title p-b-48">
                         <img src="<?= base_url('assets/'); ?>img/cilacap.png" alt="" style="width:50px;height:70px;">
                     </span>
 
+                    <?php if (isset($error)) {
+                        echo $error;
+                    }; ?>
+
                     <div class="wrap-input100 validate-input">
                         <input class="input100" type="text" name="npsn">
+                        <?php echo form_error('npsn'); ?>
                         <span class="focus-input100" data-placeholder="NPSN"></span>
                     </div>
 
@@ -51,14 +56,15 @@
                         <span class="btn-show-pass">
                             <i class="zmdi zmdi-eye"></i>
                         </span>
-                        <input class="input100" type="password" name="pass">
+                        <input class="input100" type="password" name="password">
+                        <?php echo form_error('password'); ?>
                         <span class="focus-input100" data-placeholder="Password"></span>
                     </div>
 
                     <div class="container-login100-form-btn">
                         <div class="wrap-login100-form-btn">
                             <div class="login100-form-bgbtn"></div>
-                            <button class="login100-form-btn">
+                            <button class="login100-form-btn" type="submit">
                                 Login
                             </button>
                         </div>
@@ -69,10 +75,10 @@
                             Gagal Login?
                         </span>
 
-                        <a class="txt2" href="#">
+                        <a class="txt2" href="<?= base_url('helpdesk'); ?>">
                             Kontak Administrator
                         </a> <br>
-                        <a class="txt2" href="#">
+                        <a class="txt2" href="<?= base_url('auth'); ?>">
                             Kembali ke Beranda
                         </a>
                     </div>
