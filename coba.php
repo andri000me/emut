@@ -1,3 +1,0 @@
-okee
-kie update
-jajal
