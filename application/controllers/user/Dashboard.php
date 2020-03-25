@@ -19,9 +19,9 @@ class Dashboard extends CI_Controller
     {
 
         $this->load->view("user/index");
-        $this->load->view("templates/dash_header");
-        $this->load->view("templates/dash_navbar");
-        $this->load->view("templates/dash_footer");
+        //$this->load->view("templates/dash_header");
+        // $this->load->view("templates/dash_navbar");
+        //$this->load->view("templates/dash_footer");
     }
 
     public function logout()

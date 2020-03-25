@@ -63,7 +63,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                     <div class="phone_num d-none d-xl-block">
-                                        <a href="<?= base_url('auth/login'); ?>">Masuk</a>
+                                        <a href="<?= base_url('login'); ?>">Masuk</a>
                                     </div>
                                     <div class="d-none d-lg-block">
                                         <a class="boxed-btn3" href="#">Bantuan</a>
