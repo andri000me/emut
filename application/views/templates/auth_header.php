@@ -43,7 +43,7 @@
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
                                     <a href="">
-                                        <img src="<?= base_url('assets/'); ?>img/header.png" style="width:206px;height:120px;" alt="">
+                                        <img src="<?= base_url('assets/'); ?>img/header200px.png" alt="">
                                     </a>
                                 </div>
                             </div>
