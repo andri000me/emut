@@ -51,11 +51,11 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="index.html">home</a></li>
-                                            <li><a href="jobs.html">Lihat Tutorial</a></li>
-                                            <li><a href="#">blog</a>
+                                            <li><a href="">Beranda</a></li>
+                                            <li><a href="">Tutorial</a></li>
+                                            <li><a href="">blog</a>
 
-                                            <li><a href="contact.html">Pengumuman</a></li>
+                                            <li><a href="">Pengumuman</a></li>
                                         </ul>
                                     </nav>
                                 </div>
