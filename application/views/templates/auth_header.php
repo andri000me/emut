@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/'); ?>img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/'); ?>img/cilacap500px.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -42,8 +42,8 @@
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html">
-                                        <img src="<?= base_url('assets/'); ?>img/logo.png" alt="">
+                                    <a href="">
+                                        <img src="<?= base_url('assets/'); ?>img/header.png" style="width:206px;height:120px;" alt="">
                                     </a>
                                 </div>
                             </div>
